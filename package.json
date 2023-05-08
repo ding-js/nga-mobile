@@ -1,0 +1,16 @@
+{
+  "name": "nga-mobile",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/main.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs --watch"
+  },
+  "devDependencies": {
+    "@types/tampermonkey": "^4.0.10",
+    "esbuild": "^0.17.18",
+    "typescript": "^5.0.4"
+  }
+}
