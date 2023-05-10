@@ -24,9 +24,13 @@ function cleanElements() {
 
 function extendStyles() {
   GM_addStyle(/* css */ `
-    .catenew, .cateblock {
-        font-size: 18px;
-        line-height: 20px;
+    body {
+      font-size: 14px
+    }
+    
+    #mc > * {
+      margin-left: 0;
+      margin-right: 0;
     }
     `);
 }

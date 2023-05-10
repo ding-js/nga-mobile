@@ -52,6 +52,9 @@ const config = {
   ],
 };
 async function main() {
+  fs.mkdirSync('dist', {
+    recursive: true,
+  });
   if (process.argv.includes('--watch')) {
     const ctx = await esbuild.context(config);
     await ctx.watch();
