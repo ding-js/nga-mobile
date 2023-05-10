@@ -9,8 +9,13 @@
     "dev": "node build.mjs --watch"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.194",
     "@types/tampermonkey": "^4.0.10",
     "esbuild": "^0.17.18",
+    "esbuild-plugin-lodash": "^1.2.0",
     "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
